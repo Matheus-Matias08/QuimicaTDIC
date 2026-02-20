@@ -1,0 +1,132 @@
+<!-- minigames.html (substitua inteiro) -->
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Minigames de Química para memorização de vidrarias." />
+  <title>QuímicaLab • Minigames</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para conteúdo</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html#inicio" aria-label="Voltar ao estudo">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>QuímicaLab</span>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="index.html#inicio">Início</a></li>
+          <li><a href="index.html#estudo">Estudo</a></li>
+          <li><a href="index.html#resumo">Resumo</a></li>
+          <li><a href="minigames.html" aria-current="page">Minigames</a></li>
+        </ul>
+      </nav>
+
+      <button id="themeToggle" class="btn btn-ghost" type="button" aria-pressed="false" aria-label="Alternar tema">
+        🌙 Escuro
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero mini-hero">
+      <div class="container">
+        <p class="eyebrow">Treino ativo</p>
+        <h1>Minigames para memorizar vidrarias</h1>
+        <p>3 modos: <strong>Memória</strong>, <strong>Sprint</strong> e <strong>Desafio da Imagem</strong>.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container mini-grid">
+        <!-- Jogo 1 -->
+        <article class="panel game-card">
+          <div class="game-head">
+            <h2>1) Jogo da Memória</h2>
+            <button id="restartMemory" class="btn btn-secondary" type="button">Reiniciar</button>
+          </div>
+
+          <p class="muted">
+            Ache os pares corretos: <strong>nome</strong> ↔ <strong>função principal</strong>.
+          </p>
+
+          <div class="stats">
+            <span>Jogadas: <strong id="memoryMoves">0</strong></span>
+            <span>Pares: <strong id="memoryPairs">0/0</strong></span>
+          </div>
+
+          <div id="memoryBoard" class="memory-board" aria-label="Tabuleiro de memória"></div>
+          <p id="memoryFeedback" class="feedback" aria-live="polite"></p>
+        </article>
+
+        <!-- Jogo 2 -->
+        <article class="panel game-card">
+          <div class="game-head">
+            <h2>2) Sprint 60s</h2>
+            <button id="startSprint" class="btn btn-primary" type="button">Iniciar Sprint</button>
+          </div>
+
+          <p class="muted">
+            Leia a função e escolha a vidraria correta antes do tempo acabar.
+          </p>
+
+          <div class="stats">
+            <span>Tempo: <strong id="sprintTime">60</strong>s</span>
+            <span>Pontos: <strong id="sprintScore">0</strong></span>
+          </div>
+
+          <div class="sprint-box">
+            <p id="sprintQuestion" class="question">Clique em <strong>Iniciar Sprint</strong> para começar.</p>
+            <div id="sprintOptions" class="options" role="group" aria-label="Opções do Sprint"></div>
+            <p id="sprintFeedback" class="feedback" aria-live="polite"></p>
+          </div>
+        </article>
+
+        <!-- Jogo 3 -->
+        <article class="panel game-card">
+          <div class="game-head">
+            <h2>3) Desafio da Imagem</h2>
+            <button id="startImageQuiz" class="btn btn-primary" type="button">Iniciar Desafio</button>
+          </div>
+
+          <p class="muted">Veja a imagem e marque o nome correto.</p>
+
+          <div class="stats">
+            <span>Rodada: <strong id="imageRound">0/0</strong></span>
+            <span>Pontos: <strong id="imageScore">0</strong></span>
+          </div>
+
+          <div class="image-quiz-box">
+            <div class="image-quiz-media">
+              <img id="imageQuizImg" src="" alt="Imagem da vidraria do desafio" />
+            </div>
+            <p id="imageQuizPrompt" class="question">Clique em "Iniciar Desafio".</p>
+            <div id="imageQuizOptions" class="options" role="group" aria-label="Opções do desafio da imagem"></div>
+            <p id="imageQuizFeedback" class="feedback" aria-live="polite"></p>
+            <button id="nextImageRound" class="btn btn-secondary" type="button" disabled>Próxima</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="container cta-back">
+        <a class="btn btn-ghost" href="index.html#estudo">⬅ Voltar ao estudo</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p><strong>QuímicaLab</strong> • Minigames de memorização</p>
+      <p class="muted">© <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/minigames.js"></script>
+</body>
+</html>
+
