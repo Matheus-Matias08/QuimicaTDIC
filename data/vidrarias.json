@@ -350,31 +350,6 @@
     }
   },
   {
-    "id": "balao-de-fundo-redondo",
-    "nome": "Balão de fundo redondo",
-    "imagem": "assets/img/vidrarias/balao-de-fundo-redondo.png",
-    "alt": "Balão de fundo redondo em fundo neutro",
-    "categorias": ["aquecer"],
-    "funcao": "Realizar aquecimento uniforme em reações e montagens.",
-    "comoUsar": "Fixe em suporte e aqueça com manta/chapa apropriada.",
-    "errosComuns": [
-      "Apoiar sem suporte adequado.",
-      "Aquecer com trinca.",
-      "Choque térmico brusco."
-    ],
-    "seguranca": [
-      "Inspecionar antes do uso.",
-      "Usar suporte correto.",
-      "Evitar mudança térmica abrupta."
-    ],
-    "dicaProva": "Formato favorece distribuição uniforme de calor.",
-    "pegadinha": "Não para medição volumétrica exata.",
-    "resumo": {
-      "precisao": "Não se aplica",
-      "podeAquecer": "Sim"
-    }
-  },
-  {
     "id": "bureta",
     "nome": "Bureta",
     "imagem": "assets/img/vidrarias/bureta.png",
