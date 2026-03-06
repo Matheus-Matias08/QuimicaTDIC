@@ -531,3 +531,35 @@ th {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.videos-section{
+    text-align:center;
+    padding:40px 20px;
+    margin:40px auto;
+    max-width:900px;
+    border-radius:12px;
+    background:var(--card-bg);
+}
+
+.videos-section h2{
+    margin-bottom:10px;
+}
+
+.videos-section p{
+    margin-bottom:20px;
+}
+
+.videos-button{
+    display:inline-block;
+    padding:12px 24px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    background:var(--accent);
+    color:black;
+    transition:0.2s;
+}
+
+.videos-button:hover{
+    transform:scale(1.05);
+}

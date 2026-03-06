@@ -17,7 +17,6 @@ const REQUIRED_NAMES = [
   "Funil comum",
   "Condensador",
   "Balão de destilação",
-  "Balão de fundo redondo",
   "Bureta"
 ];
 
