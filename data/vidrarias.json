@@ -322,7 +322,7 @@
   },
   {
     "id": "balao-de-destilacao",
-    "nome": "Balão de destilação",
+    "nome": "Balão de destilação com saida lateral",
     "imagem": "assets/img/vidrarias/balao-de-destilacao.png",
     "alt": "Balão de destilação em fundo neutro",
     "categorias": ["aquecer", "separar"],
