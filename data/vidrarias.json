@@ -18,7 +18,6 @@
       "Evitar choque térmico."
     ],
     "dicaProva": "Útil para preparo e aquecimento, não para volume exato.",
-    "pegadinha": "Graduação não é de alta precisão.",
     "resumo": {
       "precisao": "Baixa (aproximada)",
       "podeAquecer": "Sim"
@@ -43,7 +42,6 @@
       "Manter abertura longe do rosto."
     ],
     "dicaProva": "Formato favorece agitação e reação.",
-    "pegadinha": "Não substitui vidraria volumétrica.",
     "resumo": {
       "precisao": "Baixa",
       "podeAquecer": "Sim"
