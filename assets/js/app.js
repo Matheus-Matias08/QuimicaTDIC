@@ -175,7 +175,6 @@ function renderCards() {
             <ul>${seguranca || "<li>—</li>"}</ul>
 
             <div class="callout tip"><strong>Dica de prova:</strong> ${item.dicaProva || "—"}</div>
-            <div class="callout warn"><strong>Atenção: pegadinha comum:</strong> ${item.pegadinha || "—"}</div>
           </details>
 
           <button class="btn btn-ghost mark-btn ${isDone ? "done" : ""}" type="button" data-id="${item.id}" aria-pressed="${isDone}">
@@ -198,7 +197,6 @@ function renderSummary() {
         <td>${item.funcao}</td>
         <td>${item.resumo?.precisao || "—"}</td>
         <td>${item.resumo?.podeAquecer || "—"}</td>
-        <td>${item.pegadinha || "—"}</td>
       </tr>
     `);
 
