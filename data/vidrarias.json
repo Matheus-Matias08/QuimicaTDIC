@@ -118,7 +118,6 @@
       "Aguardar resfriamento antes de tocar."
     ],
     "dicaProva": "Ideal para testes rápidos.",
-    "pegadinha": "Não mede volume com precisão.",
     "resumo": {
       "precisao": "Não se aplica",
       "podeAquecer": "Sim"
@@ -143,7 +142,6 @@
       "Fechar o gás ao finalizar."
     ],
     "dicaProva": "Chama azul tende a ser mais eficiente para aquecimento.",
-    "pegadinha": "Confundir função da chama com função de medição.",
     "resumo": {
       "precisao": "Não se aplica",
       "podeAquecer": "Sim"
