@@ -370,4 +370,218 @@
       "podeAquecer": "Não"
     }
   }
+  ,
+{
+  "id": "cadinho-porcelana",
+  "nome": "Cadinho de porcelana",
+  "imagem": "assets/img/vidrarias/cadinho.png",
+  "alt": "Cadinho de porcelana em fundo neutro",
+  "categorias": ["aquecer"],
+  "funcao": "Aquecimento de substâncias a altas temperaturas.",
+  "comoUsar": "Coloque a amostra e aqueça com suporte adequado.",
+  "errosComuns": [
+    "Aquecer com umidade residual.",
+    "Manipular quente sem pinça.",
+    "Choque térmico."
+  ],
+  "seguranca": [
+    "Usar pinça.",
+    "Evitar choque térmico.",
+    "Deixar esfriar antes de tocar."
+  ],
+  "dicaProva": "Usado em calcinação.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Sim" }
+},
+{
+  "id": "almofariz",
+  "nome": "Almofariz e pistilo",
+  "imagem": "assets/img/vidrarias/almofariz.png",
+  "alt": "Almofariz e pistilo em fundo neutro",
+  "categorias": ["transferir"],
+  "funcao": "Triturar e pulverizar sólidos.",
+  "comoUsar": "Movimentos circulares para reduzir o tamanho das partículas.",
+  "errosComuns": [
+    "Misturar substâncias incompatíveis.",
+    "Aplicar força excessiva.",
+    "Não limpar entre usos."
+  ],
+  "seguranca": [
+    "Limpar antes/depois.",
+    "Evitar contaminação cruzada."
+  ],
+  "dicaProva": "Usado para sólidos.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Não" }
+},
+{
+  "id": "espatula",
+  "nome": "Espátula",
+  "imagem": "assets/img/vidrarias/espatula.png",
+  "alt": "Espátula de laboratório",
+  "categorias": ["transferir"],
+  "funcao": "Transferir pequenas quantidades de sólidos.",
+  "comoUsar": "Retire pequenas porções e evite contato direto.",
+  "errosComuns": [
+    "Usar a mesma para diferentes substâncias.",
+    "Contaminar reagentes."
+  ],
+  "seguranca": [
+    "Limpar após uso.",
+    "Não tocar diretamente nas substâncias."
+  ],
+  "dicaProva": "Evita contato direto com reagentes.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Não" }
+},
+{
+  "id": "pera-borracha",
+  "nome": "Pera de borracha",
+  "imagem": "assets/img/vidrarias/pera.png",
+  "alt": "Pera de borracha",
+  "categorias": ["transferir"],
+  "funcao": "Auxiliar na sucção de líquidos em pipetas.",
+  "comoUsar": "Conecte à pipeta e controle a sucção.",
+  "errosComuns": [
+    "Pipetar com a boca.",
+    "Uso incorreto da válvula."
+  ],
+  "seguranca": [
+    "Nunca pipetar com a boca.",
+    "Usar corretamente o equipamento."
+  ],
+  "dicaProva": "Substitui pipetagem oral.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Não" }
+},
+{
+  "id": "suporte-universal",
+  "nome": "Suporte universal",
+  "imagem": "assets/img/vidrarias/suporte.png",
+  "alt": "Suporte universal",
+  "categorias": ["transferir"],
+  "funcao": "Sustentar equipamentos em montagens experimentais.",
+  "comoUsar": "Fixe garras e anéis para montar experimentos.",
+  "errosComuns": [
+    "Montagem instável.",
+    "Não apertar bem as conexões."
+  ],
+  "seguranca": [
+    "Fixar bem na bancada.",
+    "Evitar quedas."
+  ],
+  "dicaProva": "Base de montagem experimental.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Não" }
+},
+{
+  "id": "aro-metalico",
+  "nome": "Aro metálico",
+  "imagem": "assets/img/vidrarias/aro.png",
+  "alt": "Aro metálico",
+  "categorias": ["aquecer"],
+  "funcao": "Suporte para recipientes durante aquecimento.",
+  "comoUsar": "Fixe ao suporte universal.",
+  "errosComuns": [
+    "Fixação frouxa.",
+    "Uso sem tela de amianto."
+  ],
+  "seguranca": [
+    "Verificar fixação.",
+    "Evitar sobrecarga."
+  ],
+  "dicaProva": "Usado com suporte universal.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Sim" }
+},
+{
+  "id": "pinca-madeira",
+  "nome": "Pinça de madeira",
+  "imagem": "assets/img/vidrarias/pinca.png",
+  "alt": "Pinça de madeira",
+  "categorias": ["aquecer"],
+  "funcao": "Segurar tubos de ensaio durante aquecimento.",
+  "comoUsar": "Prenda o tubo e mantenha distância da chama.",
+  "errosComuns": [
+    "Segurar mal o tubo.",
+    "Encostar na chama."
+  ],
+  "seguranca": [
+    "Manter distância da chama.",
+    "Verificar firmeza."
+  ],
+  "dicaProva": "Protege as mãos no aquecimento.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Sim" }
+},
+{
+  "id": "capsula-porcelana",
+  "nome": "Cápsula de porcelana",
+  "imagem": "assets/img/vidrarias/capsula.png",
+  "alt": "Cápsula de porcelana",
+  "categorias": ["aquecer"],
+  "funcao": "Evaporar líquidos e concentrar soluções.",
+  "comoUsar": "Aqueça lentamente até evaporação.",
+  "errosComuns": [
+    "Aquecimento rápido.",
+    "Transbordamento."
+  ],
+  "seguranca": [
+    "Aquecimento gradual.",
+    "Evitar choque térmico."
+  ],
+  "dicaProva": "Usada para evaporação.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Sim" }
+},
+{
+  "id": "balao-fundo-redondo",
+  "nome": "Balão de fundo redondo",
+  "imagem": "assets/img/vidrarias/balao-redondo.png",
+  "alt": "Balão de fundo redondo",
+  "categorias": ["aquecer"],
+  "funcao": "Aquecimento uniforme de líquidos.",
+  "comoUsar": "Usar com manta aquecedora ou suporte.",
+  "errosComuns": [
+    "Apoiar diretamente na mesa.",
+    "Aquecimento irregular."
+  ],
+  "seguranca": [
+    "Usar suporte.",
+    "Evitar choques térmicos."
+  ],
+  "dicaProva": "Distribui melhor o calor.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Sim" }
+},
+{
+  "id": "balao-fundo-chato",
+  "nome": "Balão de fundo chato",
+  "imagem": "assets/img/vidrarias/balao-chato.png",
+  "alt": "Balão de fundo chato",
+  "categorias": ["aquecer"],
+  "funcao": "Armazenar e aquecer líquidos.",
+  "comoUsar": "Pode ser apoiado em superfície plana.",
+  "errosComuns": [
+    "Aquecimento desigual.",
+    "Uso em montagem inadequada."
+  ],
+  "seguranca": [
+    "Evitar superaquecimento.",
+    "Usar suporte se necessário."
+  ],
+  "dicaProva": "Mais estável que o de fundo redondo.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Sim" }
+},
+{
+  "id": "pisseta",
+  "nome": "Pisseta",
+  "imagem": "assets/img/vidrarias/pisseta.png",
+  "alt": "Pisseta",
+  "categorias": ["transferir"],
+  "funcao": "Armazenar e dispensar líquidos (água destilada).",
+  "comoUsar": "Pressione o frasco para liberar o líquido.",
+  "errosComuns": [
+    "Confundir líquidos.",
+    "Contaminar conteúdo."
+  ],
+  "seguranca": [
+    "Identificar conteúdo.",
+    "Manter limpo."
+  ],
+  "dicaProva": "Muito usada para lavagem.",
+  "resumo": { "precisao": "Não se aplica", "podeAquecer": "Não" }
+}
+  
 ]
